@@ -1,0 +1,5 @@
+mkdir repo-git # or whatever
+cd repo-git
+git init
+hg-fast-export.sh -r <local-repo>
+git checkout HEAD
